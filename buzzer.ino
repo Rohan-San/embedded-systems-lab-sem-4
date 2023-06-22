@@ -7,8 +7,9 @@ void setup(){
 }
 
 void loop(){
-    if (digitalhead(btn) == HIGH)
+    if (digitalhead(btn) == HIGH){
         digitalWrite(buzz,HIGH);
+    }
     else{
         digitalWrite(buzz,LOW);
     }
