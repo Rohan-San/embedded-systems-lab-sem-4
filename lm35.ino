@@ -5,8 +5,8 @@ void setup() {
 }
 
 void loop() {
-    int reading = analogRead(sensorPin);
-    float voltage = reading * (5.0 / 1024.0);
+    int read = analogRead(sensorPin);
+    float voltage = read * (5.0 / 1024.0);
     float tempC = voltage * 100;
     Serial.print("Temperature: ");
     Serial.print(tempC);
