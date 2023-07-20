@@ -7,7 +7,7 @@ void setup(){
 }
 
 void loop(){
-    if (digitalead(btn) == HIGH){
+    if (digitalRead(btn) == HIGH){
         digitalWrite(buzz,HIGH);
     }
     else{
