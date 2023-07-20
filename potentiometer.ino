@@ -6,7 +6,7 @@ void setup(){
 }
 
 void loop(){
-    int potVal = analoghead(pot);
+    int potVal = analogRead(pot);
     int bright = potVal/4;
     analogWrite(LED,bright);
 }
